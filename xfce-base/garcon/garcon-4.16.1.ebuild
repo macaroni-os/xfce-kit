@@ -19,7 +19,6 @@ RDEPEND=">=dev-libs/glib-2.50
 	>=xfce-base/libxfce4ui-4.15.7:=[introspection?]
 	introspection? ( dev-libs/gobject-introspection:= )"
 DEPEND="${RDEPEND}
-	dev-util/glib-utils
 	dev-util/gtk-doc-am
 	dev-util/intltool
 	sys-devel/gettext

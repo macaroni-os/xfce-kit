@@ -37,7 +37,6 @@ RDEPEND="
 	systemd? ( sys-apps/systemd:= )
 "
 DEPEND="${RDEPEND}
-	dev-util/glib-utils
 	dev-util/intltool
 	sys-apps/dbus
 	virtual/pkgconfig"

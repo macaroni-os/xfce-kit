@@ -22,7 +22,6 @@ RDEPEND=">=dev-libs/glib-2.50
 	!<xfce-base/xfce4-settings-4.13.1"
 DEPEND="${RDEPEND}
 	dev-util/gdbus-codegen
-	dev-util/glib-utils
 	dev-util/intltool
 	virtual/pkgconfig
 	sys-devel/gettext
