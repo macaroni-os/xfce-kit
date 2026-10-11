@@ -11,7 +11,7 @@ LICENSE="LGPL-2+ FDL-1.1+"
 SLOT="0"
 KEYWORDS="*"
 IUSE="introspection"
-BDEPEND="dev-util/glib-utils
+BDEPEND="dev-libs/glib:2
 	sys-devel/gettext
 	virtual/pkgconfig
 	introspection? ( dev-libs/gobject-introspection )
