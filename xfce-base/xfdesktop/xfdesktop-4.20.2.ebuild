@@ -14,7 +14,6 @@ IUSE="libnotify +thunar wayland X"
 REQUIRED_USE="|| ( wayland X )"
 BDEPEND="dev-libs/glib
 	dev-util/gdbus-codegen
-	dev-util/glib-utils
 	sys-devel/gettext
 	virtual/pkgconfig
 	

@@ -13,7 +13,7 @@ KEYWORDS="*"
 IUSE="debug +introspection vala"
 REQUIRED_USE="vala? ( introspection )"
 BDEPEND="dev-util/gdbus-codegen
-	dev-util/glib-utils
+	dev-libs/glib:2
 	sys-devel/gettext
 	virtual/pkgconfig
 	vala? ( $(vala_depend) )
